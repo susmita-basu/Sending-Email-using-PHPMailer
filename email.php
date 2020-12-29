@@ -31,7 +31,7 @@ $mail->addReplyTo('');
 
 // Attachments
 //$mail->addAttachment('/var/tmp/file.tar.gz');                                                                                         // Add attachments
-$mail->addAttachment('image/tri.jpg', 'Family.jpg');                                                                                   // Optional name
+$mail->addAttachment('image/panda.jpg', 'Panda.jpg');                                                                                   // Optional name
 
 // Content
 $mail->isHTML(true);                                                                                                                 // Set email format to HTML
